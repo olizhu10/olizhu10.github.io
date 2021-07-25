@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css"></style>
+    <title>the zhu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>welcome to the zhu</h1>
+        <div class="col-10">
+          <div class="row" id="intro">
+              <p>
+                Hi! My name is Olivia Zhu and I'm a rising senior studying Computer Science with minors in Cognitive Science
+                and Information Science at Cornell University.
+              </p>
+          </div>
+          <div class="row" id="aboutme">
+            <h2>about me</h2>
+            <ul style="list-style-type:none">
+              <li><b>who am i?</b> 20 y/o, coder, baker, tennis player, amateur rock climber, <a href="https://wicc.cornell.edu">ex-co-president</a>.</li>
+              <li><b>where am i?</b> <i>(ordered by descending probability)</i> ithaca, long island, nyc.
+              <li><b>what do i care about?</b> diversity & inclusion in tech! social justice! tech ethics! cute animal pictures!</li>
+              <li><b>how did i get here?</b> as a kid, i really liked hand-made crafts and science! -> crafts + science = engineering (?) -> i did not like physics :( -> crafts + science - physics = computer science!</li>
+              <li><b>what are my </b>(technical)<b> interests?</b> data visualization, ai/ml/nlp, software engineering, tech policy (privacy & data-driven decision making)
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="headshot.jpg" class="img-fluid rounded-circle" alt="it me!">
+        </div>
+      </div>
+      <div class="row" id="work">
+        <h2>experience</h2>
+        <div class="row">
+          <h3><a class="link-dark toggler" data-bs-toggle="collapse" href="#ms" role="button" aria-expanded="false" aria-controls="ms">Technology Summer Analyst @ Morgan Stanley</a></h3>
+          <div class="row collapse" id="ms">
+            <div class="feature col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">June 2021 – August 2021</h5>
+                  <p class="card-text">
+                    I worked alongside a data engineering team in an agile environment, improving my database skills and knowledge.
+                    Throughout the summer, I produced a proof of concept for reimplementing a legacy system with new technology and making it cloud-compatible.
+                  </p>
+                  <p class="card-text">
+                    My goal was to prove that a current in-house built data reporting tool could be replaced by Microsoft Power BI. In doing this, I developed data modeling skills, used database and data analysis technologies such as DBArtisan, SQL, and OLAP cubes, and enhanced my knowledge of cloud technologies.
+                  </p>
+                  <p class="card-text">
+                    Execution of this proof of concept would increase team efficiency by reducing support costs and allow for greater flexibility in data visualization for business users.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feature col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">June 2020 – August 2020</h5>
+                  <p class="card-text">I worked on the Payments Fleet, developing a REST API using Java, Gradle, and Spring Framework.
+                    The API was used to create a direct connection to a vendor service, bypassing a large external network.</p>
+                  <p class="card-text">Throughout the summer, I was able to work with business analysts and product owners to best understand the requirements and use-cases of my project.
+                    I was also able to connect with the vendor service representatives and work directly with them to resolve any development issues.</p>
+                  <p class="card-text">My work optimized business value by providing real-time access to vendor services to internal teams, improving the accuracy of data, and eliminating the need for manual reconciliation of data discrepancies.</p>
+                  <p class="card-text">Having done my first industry internship entirely virtually in an extrememly uncertain time, I had to navigate unique circumstances and a completely new work environment.
+                    The internship was shortened to only six weeks, changing the requirements of my project and leading to changed plans and crunched timelines.
+                    Overall, I found that flexibility is one of the most important qualities to have to succeed in my career.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h3><a class="link-dark toggler" data-bs-toggle="collapse" href="#research" role="button" aria-expanded="false" aria-controls="research">Research Intern @ Cornell Tech Language, Interaction, and Learning Lab</a></h3>
+          <div class="row collapse" id="research">
+            <div class="feature col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">May 2019 – August 2019</h5>
+                  <p class="card-text">Here, I found a great foundation for my development and NLP knowledge as I was exposed to many different technologies and was given ample amount of freedom in my work.
+                    In my first project, I contributed to <a href="https://github.com/lil-lab/cerealbar">Cereal Bar</a>, a game environment used to collect natural language data about collaborative interactions. It was built using Unity, C#, JavaScript, and Python.
+                    I enhanced the system by creating a feedback mechanism, so that the guiding user could provide real-time feedback to the following user they are collaborating with.
+                    To further extend the use of the game environment, we wanted to develop an add-on to be used for second language acquisition. I expanded the game to include a translation option using the Google Translate API.
+                    I also prepared it for a study to see how well it could be used as a second language acquisition tool. This included updating the deployment mechanism to allow participants to be manually paired, rather than randomly, and updating the server, database, and reporting html files to gather and record feedback.
+                  </p>
+                  <p class="card-text">In my second project, I worked with a partner to begin a potential study from scratch. We analyzed the <a href="https://github.com/lil-lab/newsroom">Newsroom dataset</a> of 1.3 million news articles and human-written summaries to create a subset of news articles paired with multiple reference summaries each with different properties.
+                    I investigated data first-hand by manually annotating a small subset of data to see if it was viable to cluster data based on event, and then find a diverse set of summaries for a single event. After proving viability, I clustered data using DBSCAN with TF-IDF score as the clustering metric to identify news articles reporting on the same event. Simply clustering data by event was rather difficult, as similar events like soccer matches at different tournaments were clustered together, unwantedly, as well as other nuanced problems. We tested various different methods and alterations to our algorithm to address these.
+                    I also created a simple web application using HTML/CSS, JavaScript, Flask and Python to display and easily interact with the clustered data.
+                    This project would address an unsolved problem in (then current) NLP. There are models out there that are able to summarize articles, but none that can successfully produce summaries with specific writing styles. By curating this dataset of articles paired with multiple diverse human-written summaries, models could be trained to summarize with particular levels of extractiveness or abstractiveness.
+                  <p class="card-text">During my experience here, I was able to successfully navigate my first projects outside of a class environment. The learning curve was steep– navigating a codebase and Git for the first time, learning NLP concepts, using Python libraries– but it was one of my most rewarding experiences. I felt empowered to work on complex projects and supported to dive into unexplored territory. As a computer science student with only two classes of computer science under my belt and no experience coding outside of class, dropped into an unfamiliar environment, I gained resilience and confidence.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h3><a class="link-dark toggler" data-bs-toggle="collapse" href="#ta" role="button" aria-expanded="false" aria-controls="ta">Teaching Assistant @ Cornell Bowers College of Computing and Information Science</a></h3>
+          <div class="row collapse" id="ta">
+            <div class="feature col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="http://www.cs.cornell.edu/courses/cs3110/2020sp/">Data Structures and Functional Programming</a></h5>
+                  <h6 class="card-subtitle">Spring 2020 – Fall 2021</h6>
+                  <p class="card-text">I conducted office hours to help students with assignments and give support on projects. I graded assignments, providing constructive feedback to improve understanding of data structures and functional programming concepts and coding standards.
+                    This class was difficult, yet rewarding, when I took it. I was so glad to be able to help students pass the same obstacles that stumped me and achieve that "aha!" moment.</p>
+                </div>
+              </div>
+            </div>
+            <div class="feature col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://courses.cs.cornell.edu/cs1340/2021sp/">Consequences and Choices in Computing</a></h5>
+                  <h6 class="card-subtitle">Spring 2021</h6>
+                  <p class="card-text">I assisted in the inaugural semester for this course. I helped students with understanding simple probabilistic models for topics such as platform moderation, data privacy, and data-driven decision making. I also led thoughtful discussions on policies across the tech industry today.
+                    Aiding in this course's first semester allowed me to dive deeper into tech policy, as well as contribute ideas for the course's own policies. </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="feature col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Data-driven Web Applications</h5>
+                  <h6 class="card-subtitle">Fall 2022</h6>
+                  <p class="card-text">TBA! I'll be helping students with assignments and projects in data visualization with d3.js.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="row" id="projects">
+      <h2>projects</h2>
+      <div class="row flex-row flex-nowrap overflow-auto">
+        <div class="feature col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Screen to Table</h5>
+              <p class="card-text">Saw some delicious looking food in a movie? Search here to find out how to make it.</p>
+              <p><a href="">Check out it here!</a><br/>
+              <a href="https://github.com/elizabethhealy/cs4300sp2021-eah255-klw242-dzy3-sn532-oz28">Github link</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="feature col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Hate Crimes in NYC</h5>
+              <p class="card-text">A data visualization for hate crimes across New York City throughout the pandemic.</p>
+              <p><a href="https://olizhu10.github.io/info3300_project2/">Check it out here!</a><br>
+              <a href="https://github.com/graciejing/info3300_project2">Github link</a>
+            </div>
+          </div>
+        </div>
+        <div class="feature col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Alley</h5>
+              <p class="card-text">Saw some delicious looking food in a movie? Search here to find out how to make it.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      <!-- </div>
+      <div class="row"> -->
+        <div class="feature col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">ShelterMe</h5>
+              <p class="card-text">Saw some delicious looking food in a movie? Search here to find out how to make it.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="feature col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Draft</h5>
+              <p class="card-text">Saw some delicious looking food in a movie? Search here to find out how to make it.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="feature col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">This website!</h5>
+              <p class="card-text">Saw some delicious looking food in a movie? Search here to find out how to make it.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row" id="leadership">
+      <h2>leadership</h2>
+      <div class="row">
+        <h3>Co-President @ Women in Computing at Cornell</h3>
+      </div>
+    </div> -->
+
+    <div class="row" id="skills">
+      <h2>skills</h2>
+
+      <div class="col">
+        <h3>Programming Languages</h3>
+        <p>
+          Python • Java • JavaScript • HTML/CSS • OCaml • C# • Swift • R • C
+        </p>
+      </div>
+      <div class="col">
+        <h3>Spoken Languages</h3>
+        <p>
+          English • Français • 中文
+        </p>
+      </div>
+      <div class="col">
+        <h3>Tools</h3>
+        <p>
+          Git • Flask • d3.js • PyTorch • NumPy • SQL • Power BI • Bootstrap • Docker • Spring framework • React • Gradle • Unity • Unreal
+        </p>
+
+    </div>
+
+    <p>
+      <b>Btw,</b> this site is always under-construction! if you have any comments, tips, or questions drop them <a href="mailto:oz28@cornell.edu">here</a>!
+    </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
