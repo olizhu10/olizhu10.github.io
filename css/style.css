@@ -1,3 +1,23 @@
 .toggler {
-  text-decoration: none !important
+  text-decoration: none !important;
+  /* color: rgba(0,0,0,.55) */
+}
+
+.toggler:hover {
+  /* filter:brightness(50%) */
+  color:rgba(0,0,0,.55);
+  transition: color .25s;
+}
+
+a {
+  color: rgba(126,215,215,1);
+}
+
+a:hover {
+  color: rgba(126,215,215,0.5);
+  transition: color .25s;
+}
+
+.highlight {
+  color: rgba(56, 183, 183, 1) !important;
 }
